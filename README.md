@@ -2,12 +2,9 @@
 
 Modern Boilerplate to React Projects
 
-<center>
-
-  ![Redorn](./logo.jpg)
-
-</center>
-
+<div style="text-align:center">
+  <img src="./logo.jpg" alt="RedOrn logo" />
+</div>
 
 
 ### Technologies
@@ -15,7 +12,6 @@ Modern Boilerplate to React Projects
 * React
 * TailwindCSS
 * Styled Components
-* Material UI
 * React Router
 * Axios
 * Husky
