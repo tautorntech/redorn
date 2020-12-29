@@ -2,9 +2,10 @@
 
 Modern Boilerplate to React Projects
 
-<div style="text-align:center">
-  <img src="./logo.jpg" alt="RedOrn logo" />
-</div>
+<p align="center">
+  <a href="https://github.com/tautorntech/redorn" rel="noopener" target="_blank">
+  <img src="./logo.jpg" alt="RedOrn logo"></a>
+</p>
 
 
 ### Technologies
