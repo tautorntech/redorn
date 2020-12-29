@@ -13,7 +13,7 @@ Modern Boilerplate to React Projects
 ### Technologies
 
 * React
-* Tailwind
+* TailwindCSS
 * Styled Components
 * Material UI
 * React Router

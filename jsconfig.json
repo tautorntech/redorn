@@ -1,0 +1,44 @@
+
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "src",
+    "jsx": "react",
+    "paths": {
+      "components/*": [
+        "./components/*"
+      ],
+      "containers/*": [
+        "./containers/*"
+      ],
+      "assets/*": [
+        "./assets/*"
+      ],
+      "services/*": [
+        "./services/*"
+      ],
+      "helpers/*": [
+        "./commons/helpers/*"
+      ],
+      "hocs/*": [
+        "./commons/hocs/*"
+      ],
+      "hooks/*": [
+        "./commons/hooks/*"
+      ],
+      "constants/*": [
+        "./commons/constants/*"
+      ],
+      "styles/*": [
+        "./commons/styles/*"
+      ],
+      "commons/*": [
+        "./commons/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
