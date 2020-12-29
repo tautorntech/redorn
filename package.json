@@ -1,7 +1,6 @@
 {
   "name": "redorn",
-  "version": "0.1.0",
-  "private": false,
+  "version": "0.2.0",
   "dependencies": {
     "axios": "^0.21.1",
     "customize-cra": "^1.0.0",
@@ -53,11 +52,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run eslint"
-    }
   },
   "scripts": {
     "start": "react-app-rewired start",
