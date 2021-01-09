@@ -1,22 +1,17 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import { Router } from 'react-router-dom'
+import { history } from 'commons/helpers/router'
+import Main from 'containers/Main'
+import GlobalStyles from 'commons/styles/GlobalStyles'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <GlobalStyles />
+      <Router history={history}>
+        <Main />
+      </Router>
+    </Fragment>
   )
 }
 

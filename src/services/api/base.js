@@ -1,6 +1,6 @@
 import axios from 'axios'
 import qs from 'qs'
-import { getLanguage } from '~helpers/locale'
+import { getLanguage } from 'helpers/locale'
 import { validateRequest, onResponseError } from './interceptors'
 
 const getConfig = async () => ({

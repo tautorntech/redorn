@@ -17,6 +17,9 @@
       "services/*": [
         "./services/*"
       ],
+      "routes/*": [
+        "./routes/*"
+      ],
       "helpers/*": [
         "./commons/helpers/*"
       ],
