@@ -9,7 +9,7 @@ export const HeaderStyled = styled.header`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid #fff;
+  border-bottom: 5px solid #EF872D;
 
   a {
     color: #FFF;

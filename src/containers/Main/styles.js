@@ -4,7 +4,6 @@ import tw from 'twin.macro'
 export const ContainerStyled = styled.div`
   width: 100%;
   height: 100%;
-  background-color: #EF872D;
   overflow: hidden;
 `
 
