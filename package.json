@@ -53,6 +53,28 @@
       "last 1 safari version"
     ]
   },
+
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!/node_modules/",
+      "!src/unit-test/**",
+      "!src/index.js",
+      "!src/commons/styles/**",
+      "!src/containers/**",
+      "!src/services/**",
+      "!src/routes/**",
+      "!src/assets/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
+    }
+  },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build && gzipper c --include ts --verbose ./build",

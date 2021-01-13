@@ -1,0 +1,6 @@
+## THIS FILE SHOULD CONTAIN ALL HOOKS FROM THIS PROJECT
+
+Example:
+
+* Page scroll
+* Animation

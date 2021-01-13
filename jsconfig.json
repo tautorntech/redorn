@@ -37,6 +37,9 @@
       ],
       "commons/*": [
         "./commons/*"
+      ],
+      "unit-test/*": [
+        "./unit-test/*"
       ]
     }
   },

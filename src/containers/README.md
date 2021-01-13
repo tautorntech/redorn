@@ -1,0 +1,7 @@
+## THIS FILE SHOULD CONTAIN ALL CONTAINERS FROM THIS PROJECT
+
+Example:
+
+* Home
+* Blog
+* Signin
