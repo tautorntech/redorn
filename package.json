@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "dependencies": {
     "axios": "^0.21.1",
-    "qs": "^6.9.4",
+    "qs": "^6.9.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-router": "^5.2.0",
@@ -11,16 +11,16 @@
     "react-scripts": "^4.0.1",
     "styled-components": "^5.2.1",
     "tailwindcss": "^2.0.2",
-    "twin.macro": "^2.0.7"
+    "twin.macro": "^2.0.8"
   },
   "devDependencies": {
-    "@testing-library/dom": "^7.29.0",
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
+    "@testing-library/dom": "^7.29.4",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
     "customize-cra": "^1.0.0",
-    "eslint": "^7.16.0",
+    "eslint": "^7.17.0",
     "gzipper": "^4.3.0",
-    "husky": "^4.3.6",
+    "husky": "^4.3.7",
     "jest": "26.6.0",
     "prettier": "^2.2.1",
     "react-app-rewired": "^2.1.8",
@@ -80,6 +80,6 @@
     "build": "react-app-rewired build && gzipper c --include ts --verbose ./build",
     "test": "react-app-rewired test --maxWorkers=3",
     "test:coverage": "react-app-rewired test --watchAll=false --coverage --no-cache --logHeapUsage --silent --maxWorkers=2",
-    "eslint": "eslint --fix --ext .jsx,.js src"
+    "lint": "eslint --fix --ext .jsx,.js src"
   }
 }
